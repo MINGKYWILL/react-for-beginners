@@ -1,0 +1,50 @@
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button,
+button:focus {
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.movie-details__container {
+  display: flex;
+  padding: 2rem;
+  background-color: black;
+  height: 500vh;
+}
+.movie-details {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
+  display: relative;
+  top: 100;
+  color: white;
+}
+.movie-title {
+  font-size: 3rem;
+  /* margin-bottom: 30px; */
+}
+.movie-meta {
+  font-size: 1.5rem;
+  display: flex;
+}
+.movie-meta li {
+  margin-right: 10px;
+}
+.btn-Back {
+  font-size: 1.8rem;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: lightskyblue;
+}
+.movie-description {
+  width: 100%;
+  font-size: 1.5rem;
+}

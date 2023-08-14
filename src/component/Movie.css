@@ -1,0 +1,39 @@
+/* Movie.css */
+body {
+  background-color: black;
+}
+.home--container {
+  display: flex;
+}
+.movies--container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 20px auto;
+  justify-content: center;
+}
+.movie__list--container {
+  width: 330px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.movie__list--container:hover {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.06);
+  transition: all 0.5s;
+}
+
+.movie__list--container img {
+  width: 100%;
+  height: 100%;
+}
+
+.movie__list--container h3 {
+  font-size: 1rem;
+  color: white;
+}
